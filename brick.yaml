@@ -1,0 +1,11 @@
+name: feature_provider
+description: A brick to create a feature using best practices and provider!
+version: 0.0.1
+repository: https://github.com/ishangavidusha/feature_provider
+
+vars:
+  feature_name:
+    type: string
+    default: login
+    description: The feature name
+    prompt: What is the feature name?
